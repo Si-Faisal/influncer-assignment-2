@@ -1,0 +1,435 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.container{
+    background-color:#FFFFFF ;
+    width: 85%;
+    margin: auto;
+    height: auto;
+}
+.header-part{
+    width: 100%;
+    padding: 35px 5px;
+    display: flex;
+    align-items: center;
+
+}
+.header-part .logo h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.header-part .login-part {
+    justify-content: right;
+   
+
+}
+.header-part .login-part ul{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+.header-part .login-part ul>li {
+    list-style: none;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+/* ........header part end............ */
+
+
+
+/* ........camera part start............ */
+.camera-part{
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+.camera-part .details-cam{
+    width: 50%;
+}
+.camera-part .details-cam h1{
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.camera-part .details-cam p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.camera-part .details-cam button{
+    padding: 10px 24px;
+    margin-top: 20px;
+    width: 230px;
+    background: #E02C6D;
+    border: 1px solid white;
+    border-radius: 41px;
+    color: white;
+    
+}
+
+
+
+.camera-part .camera{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+ 
+}
+.camera-part .camera img{
+    width: 440px;
+}
+
+/* ........camera part end............ */
+
+/* ...........brand-part start........ */
+
+.brand-part{
+    width: 90%;
+    padding:40px 0 ;
+    text-align: center;
+    margin: 20px 0;
+
+}
+.brand-part ul{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-part ul>li{
+    list-style: none;
+ 
+}
+.brand-part ul>li img{
+    width: 65px;
+}
+
+
+/* ...........brand-part end........ */
+
+/* ............picture-grid-templete....... */
+
+.pictures-grid-templete{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+.pictures-grid-templete h1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+.pictures-grid-templete .templete{
+    display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    gap: 5px;
+  
+
+}
+.link{
+    width: 100%;
+    text-align: end;
+    /* text-align: end; */
+}
+.link a{
+ 
+    color: #E02C6DDE;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.templete .inner-templete{
+    background: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 0;
+    margin: 10px 0;
+   
+}
+.templete .inner-templete .icon{
+    display: flex;
+    padding: 10px;
+}
+.templete .inner-templete .icon .star{
+    display: flex;
+    color: gold;
+}
+.templete .inner-templete .img-detailes{
+    width: 85%;
+    text-align: left;
+    padding: 15px 20px;
+}
+.templete .inner-templete .img-detailes h3{
+    line-height: 30px;
+}
+.templete .inner-templete img {
+    width: 300px;
+}
+
+
+
+/* ............picture-grid-templete....... */
+/* ............feature-start....... */
+
+.feature-part{
+    width: 90%;
+    text-align: center;
+    padding: 30px 0;
+    margin: 20px 0;
+}
+.feature-part .inner-feature{
+    display: flex;
+    gap: 20px;
+}
+.feature-part .inner-feature .feature-left{
+    width: 50%;
+   
+}
+.feature-part .inner-feature .feature-left img{
+    width: 400px;
+}
+.feature-part .inner-feature .feature-right{
+   margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.feature-part .inner-feature .feature-right h1{
+    text-align: center;
+    padding: 20px 0;
+    color: #0A0826;
+    font-Weight:700 ;
+    font-Size: 38px;
+    Line height: 48px;
+    
+}
+.feature-part .inner-feature .feature-right p{
+    width: 70%;
+    font-size: 16px;
+    line-height: 28px;
+
+}
+.feature-part .inner-feature .feature-right button{
+   
+    padding: 10px 24px;
+    margin-top: 10px;
+    width: 200px;
+    background: #E02C6D;
+    float: left;
+    border: 1px solid white;
+    border-radius: 41px;
+    color: white;
+    
+}
+/* ............picture-end....... */
+/* ..................footer start.. .....*/
+footer{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    line-height: 30px;
+    background: #0A0826 ;
+    color: #FFFFFF;
+    margin: auto;
+}
+.icon-footer{
+   width: 100%;
+   text-align: center;
+}
+.icon-footer i{
+    display: inline;
+    margin-right: 10px;
+}
+/* ........footer end...... */
+
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767px) { 
+    .header-part{
+        width: 100%;
+        padding: 35px 5px;
+        
+        
+    }
+    .header-part .logo{
+        width: 80%;
+        display: block;
+    }
+    
+    
+    .header-part .login-part {
+        width: 10%;
+        display: none;
+       
+    
+    }
+
+    .header-part .logo::after{
+        content: url("./images/icons8-menu-rounded-50.png");
+        overflow: hidden;
+        position: relative;
+        top: -33px;
+    }
+    .header-part .logo h2{
+        text-align: right;
+        font-size: 30px;
+    }
+
+    .camera-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .camera-part .details-cam{
+        width: 100%;
+    }
+    .brand-part ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brand-part ul>li{
+        width: 25%;
+        list-style: none;
+        margin-top: 20px;
+     
+    }
+ 
+   
+
+    .pictures-grid-templete .templete{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .templete .inner-templete img {
+        width: 90%;
+    }
+    .feature-part{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+        margin: 0 0;
+    }
+    .feature-part .inner-feature .feature-left{
+        width: 100%;
+       
+    }
+    .feature-part .inner-feature .feature-left img{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .feature-part .inner-feature .feature-right{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .feature-part .inner-feature{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .icon-footer i{
+        display: inline;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)and (max-width:991px){
+    .camera-part .camera img{
+        width: 100%;
+        background-size: contain;
+    }
+    .brand-part ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brand-part ul>li{
+        width: 30%;
+        list-style: none;
+        margin-top: 20px;
+     
+    }
+    .pictures-grid-templete{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: grid;
+    }
+    .pictures-grid-templete h1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .pictures-grid-templete .templete{
+        display: grid;
+        grid-template-columns: repeat( 2 , 1fr);
+        grid-column-gap: 10px;
+      
+    
+    }
+
+    .feature-part{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+        margin: 0 0;
+    }
+    .feature-part .inner-feature .feature-left{
+        width: 100%;
+       
+    }
+    .feature-part .inner-feature .feature-left img{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .feature-part .inner-feature .feature-right{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .feature-part .inner-feature{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .header-part .logo {
+        width: 40%;
+    }
+    .header-part .login-part {
+       width: 60%;
+      
+    
+    }
+    .header-part .login-part ul>li {
+        margin-right: 2px
+    }
+      
+
+  }
+
